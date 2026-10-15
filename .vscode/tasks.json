@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Zero Hour strategy server",
+      "type": "shell",
+      "command": "py",
+      "args": ["-3.13", "server.py"],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Zero Hour strategy API",
+      "type": "shell",
+      "command": "py",
+      "args": ["-3.13", "server.py"],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Zero Hour simulation API",
+      "type": "shell",
+      "command": "py",
+      "args": ["-3.13", "server.py"],
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
